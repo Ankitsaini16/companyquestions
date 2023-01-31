@@ -5,7 +5,7 @@ let arr1=[]
 let great=0;
 let lower=0;
 for(let i=0;i<=arr.length-1;i++){
-  for(let j=i;j<=arr.length-1;j++){
+  for(let j=i+1;j<=arr.length-1;j++){
     if(arr[i]>arr[j]){
       lower+=arr[j]
     }else if(arr[i]<arr[j]){
